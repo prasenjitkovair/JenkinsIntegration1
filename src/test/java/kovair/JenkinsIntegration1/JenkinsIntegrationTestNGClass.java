@@ -37,8 +37,8 @@ public class JenkinsIntegrationTestNGClass
 	  @Test
 	  public void NGTest1() {
 		  System.out.println("In Test 1");
-		  Assert.assertTrue(true);
-		  //Assert.fail();
+		  //Assert.assertTrue(true);
+		  Assert.fail();
 		  //takeSnapShot(driver);
 	  }
   
@@ -55,19 +55,22 @@ public class JenkinsIntegrationTestNGClass
 	  @Test
 	  public void NGTest3() {
 		  System.out.println("In Test 3");
-		  Assert.assertTrue(true);
+		  //Assert.assertTrue(true);
+		  Assert.fail();
 	  }
 	  
 	  @Test
 	  public void NGTest4() {
 		  System.out.println("In Test 4");
-		  Assert.assertTrue(true);
+		  //Assert.assertTrue(true);
+		  Assert.fail();
 	  }
 	  
 	  @Test
 	  public void NGTest5() {
 		  System.out.println("In Test 5");
-		  Assert.assertTrue(true);
+		  //Assert.assertTrue(true);
+		  Assert.fail();
 	  }
 	  
 	  
