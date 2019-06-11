@@ -46,9 +46,9 @@ public class JenkinsIntegrationTestNGClass
 	  @Test
 	  public void NGTest2() {
 		  System.out.println("In Test 2");
-		  Assert.fail();
+		  //Assert.fail();
 		  //Assert.assertTrue(true);
-		  //throw new SkipException("NGTest2 skipped");
+		  throw new SkipException("NGTest2 skipped");
 		  
 	  }
 	  
