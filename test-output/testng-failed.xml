@@ -9,7 +9,6 @@
           <include name="BeforeTest"/>
           <include name="AfterTest"/>
           <include name="NGTest2"/>
-          <include name="NGTest1"/>
         </methods>
       </class> <!-- kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass -->
     </classes>

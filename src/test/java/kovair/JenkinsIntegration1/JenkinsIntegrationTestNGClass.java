@@ -37,8 +37,8 @@ public class JenkinsIntegrationTestNGClass
 	  @Test
 	  public void NGTest1() {
 		  System.out.println("In Test 1");
-		  //Assert.assertTrue(true);
-		  Assert.fail();
+		  Assert.assertTrue(true);
+		  //Assert.fail();
 		  //takeSnapShot(driver);
 	  }
   
@@ -47,8 +47,8 @@ public class JenkinsIntegrationTestNGClass
 	  public void NGTest2() {
 		  System.out.println("In Test 2");
 		  //Assert.fail();
-		  //Assert.assertTrue(true);
-		  throw new SkipException("NGTest2 skipped");
+		  Assert.assertTrue(true);
+		  //throw new SkipException("NGTest2 skipped");
 		  
 	  }
 	  
