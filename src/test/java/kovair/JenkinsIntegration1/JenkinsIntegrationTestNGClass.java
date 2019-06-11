@@ -55,7 +55,7 @@ public class JenkinsIntegrationTestNGClass
 	  @Test
 	  public void NGTest3() {
 		  System.out.println("In Test 3");
-		  Assert.assertTrue(true);
+		  Assert.assertTrue(false);
 	  }
 	  
 	  @org.testng.annotations.AfterMethod
