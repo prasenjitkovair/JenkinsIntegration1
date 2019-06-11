@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jun 11 18:34:24 IST 2019</td>
+<td>Started on:</td><td>Tue Jun 11 19:03:58 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>53 seconds (53791 ms)</td>
+<tr><td>Total time:</td><td>28 seconds (28884 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,36 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest1()'><b>NGTest1</b><br>Test class: kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass</td>
-<td></td>
-<td>0</td>
-<td>kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass@343f4d3d</td></tr>
-<tr>
-<td title='kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest3()'><b>NGTest3</b><br>Test class: kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass</td>
-<td></td>
-<td>0</td>
-<td>kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass@343f4d3d</td></tr>
-<tr>
-<td title='kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest4()'><b>NGTest4</b><br>Test class: kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass</td>
-<td></td>
-<td>0</td>
-<td>kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass@343f4d3d</td></tr>
-<tr>
-<td title='kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest5()'><b>NGTest5</b><br>Test class: kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass</td>
-<td></td>
-<td>0</td>
-<td>kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass@343f4d3d</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -104,8 +76,10 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest2()'><b>NGTest2</b><br>Test class: kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass</td>
-<td><div><pre>org.testng.SkipException: NGTest2 skipped
-	at kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest2(JenkinsIntegrationTestNGClass.java:51)
+<td><div><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest2(JenkinsIntegrationTestNGClass.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -131,9 +105,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace79782883", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace79782883'><pre>org.testng.SkipException: NGTest2 skipped
-	at kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest2(JenkinsIntegrationTestNGClass.java:51)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1391624125", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1391624125'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest2(JenkinsIntegrationTestNGClass.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -161,7 +137,35 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass@343f4d3d</td></tr>
+<td>kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass@42e26948</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest1()'><b>NGTest1</b><br>Test class: kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass</td>
+<td></td>
+<td>0</td>
+<td>kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass@42e26948</td></tr>
+<tr>
+<td title='kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest3()'><b>NGTest3</b><br>Test class: kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass</td>
+<td></td>
+<td>0</td>
+<td>kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass@42e26948</td></tr>
+<tr>
+<td title='kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest4()'><b>NGTest4</b><br>Test class: kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass</td>
+<td></td>
+<td>0</td>
+<td>kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass@42e26948</td></tr>
+<tr>
+<td title='kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest5()'><b>NGTest5</b><br>Test class: kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass</td>
+<td></td>
+<td>0</td>
+<td>kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass@42e26948</td></tr>
 </table><p>
 </body>
 </html>
