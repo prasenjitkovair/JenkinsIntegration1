@@ -5,10 +5,10 @@
     <classes>
       <class name="kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass">
         <methods>
-          <include name="NGTest3"/>
           <include name="AfterMethod"/>
           <include name="BeforeTest"/>
           <include name="AfterTest"/>
+          <include name="NGTest2"/>
         </methods>
       </class> <!-- kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass -->
     </classes>
