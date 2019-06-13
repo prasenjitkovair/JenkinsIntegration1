@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.018" tests="5" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\PrasenjitOffice\OneDrive - Kovair Software\My Kovair Files\EclipseWorkspace\JenkinsIntegration1"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\PRASEN~1.IN\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\PrasenjitOffice\OneDrive - Kovair Software\My Kovair Files\EclipseWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6930354105372347120.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Users\prasenjitd.IN\AppData\Local\Android\Sdk\platform-tools;C:\Users\prasenjitd.IN\AppData\Local\Android\Sdk\tools;C:\Users\prasenjitd.IN\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\OpenVPN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\PuTTY\;C:\HashiCorp\Vagrant\bin;C:\Program Files\Puppet Labs\Puppet\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Maven\bin;C:\Users\prasenjitd.IN\AppData\Local\Programs\Python\Python37-32\;C:\Users\prasenjitd.IN\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\prasenjitd.IN\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\prasenjitd.IN\AppData\Local\Programs\Python\Python37-32\;C:\Users\prasenjitd.IN\AppData\Local\Microsoft\WindowsApps;;D:\PrasenjitOffice\OneDrive - Kovair Software\My Kovair Files\Miscellaneous\eclipse-jee-luna-R-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\prasenjitd.IN"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="prasenjitd"/>
+    <property name="java.class.path" value="/D:/PrasenjitOffice/OneDrive - Kovair Software/My Kovair Files/Miscellaneous/eclipse-jee-luna-R-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.5.0.20140605-2032/jars/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes;C:/PROGRA~2/DYNATR~1/oneagent/agent/bin/1.169.172.20190529-101847/any/oneagentjava.jar;C:/PROGRA~2/DYNATR~1/oneagent/agent/bin/1.169.172.20190529-101847/any/oneagentjava.rmi.jar;C:/PROGRA~2/DYNATR~1/oneagent/agent/bin/1.169.172.20190529-101847/any/oneagentjava.sql.jar"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\PrasenjitOffice\OneDrive - Kovair Software\My Kovair Files\EclipseWorkspace\JenkinsIntegration1\EMBEDDED"/>
+    <property name="org.omg.PortableInterceptor.ORBInitializerClass.org.omg.PortableInterceptor.RuxitOrbInitializer" value=""/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="NGTest1" classname="kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass" time="0.016">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest1(JenkinsIntegrationTestNGClass.java:41)
+</failure>
+    <system-out>In Test 1
+</system-out>
+    <system-err>Starting ChromeDriver 2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1) on port 25800
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jun 13, 2019 11:46:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase name="NGTest2" classname="kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass" time="0.001">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest2(JenkinsIntegrationTestNGClass.java:49)
+</failure>
+    <system-out>In Test 2
+</system-out>
+  </testcase>
+  <testcase name="NGTest3" classname="kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest3(JenkinsIntegrationTestNGClass.java:59)
+</failure>
+    <system-out>In Test 3
+</system-out>
+  </testcase>
+  <testcase name="NGTest4" classname="kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass" time="0.001">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest4(JenkinsIntegrationTestNGClass.java:66)
+</failure>
+    <system-out>In Test 4
+</system-out>
+  </testcase>
+  <testcase name="NGTest5" classname="kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass" time="0"/>
+</testsuite>

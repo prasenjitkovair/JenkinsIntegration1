@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 18.386 sec <<< FAILURE!
+NGTest1(kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest1(JenkinsIntegrationTestNGClass.java:41)
+
+NGTest2(kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest2(JenkinsIntegrationTestNGClass.java:49)
+
+NGTest3(kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest3(JenkinsIntegrationTestNGClass.java:59)
+
+NGTest4(kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at kovair.JenkinsIntegration1.JenkinsIntegrationTestNGClass.NGTest4(JenkinsIntegrationTestNGClass.java:66)
+
