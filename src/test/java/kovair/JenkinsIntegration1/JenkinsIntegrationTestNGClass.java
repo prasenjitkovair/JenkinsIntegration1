@@ -69,8 +69,8 @@ public class JenkinsIntegrationTestNGClass
 	  @Test
 	  public void NGTest5() {
 		  System.out.println("In Test 5");
-		  //Assert.assertTrue(true);
-		  Assert.fail();
+		  Assert.assertTrue(true);
+		  //Assert.fail();
 	  }
 	  
 	  
